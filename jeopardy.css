@@ -1,0 +1,67 @@
+html {
+     font-family: "Courier New", Courier, monospace;
+     background-color: skyblue;
+}
+
+body {
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+     padding: 10px;
+}
+
+button {
+     background-color: rgb(0, 92, 128);
+     width: 125px;
+     height: 40px;
+     border: none;
+     border-radius: 10px;
+     color: white;
+     text-transform: uppercase;
+     margin: 30px;
+     font-family: "Courier New", Courier, monospace;
+     font-weight: bold;
+}
+
+button:hover {
+     cursor: pointer;
+}
+
+th {
+     background-color: rgb(0, 92, 128);
+     color: white;
+     text-transform: uppercase;
+     height: 40px;
+     font-family: "Courier New", Courier, monospace;
+}
+
+td {
+     text-align: center;
+     width: 125px;
+     height: 125px;
+     color: rgb(0, 92, 128);
+     background-color: rgb(173, 225, 245);
+     font-size: 12px;
+     font-weight: 900;
+}
+
+td:hover {
+     cursor: pointer;
+}
+
+.hidden {
+     visibility: none;
+}
+
+.show {
+     visibility: visible;
+}
+
+td[data-state="question"] {
+     background-color: lightgoldenrodyellow;
+}
+
+td[data-state="answer"] {
+     background-color: lightgreen;
+}
