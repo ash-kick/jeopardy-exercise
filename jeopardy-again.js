@@ -153,7 +153,7 @@ async function setUpAndStart() {
           generateTable(randomCategoryData, startButton);
      } catch (err) {
           console.error(err);
-          alert("Error loading game data. Try again.");
+          alert("Error loading game data. Please try again!");
      } finally {
           hideLoadingView();
      }
