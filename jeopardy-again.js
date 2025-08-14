@@ -148,7 +148,6 @@ async function setUpAndStart() {
           const allQuestionsAndAnswers = await fetchQuestionsAndAnswers(categories);
           const randomCategories = getRandomCategories(categories);
           const randomCategoryData = buildOutCategoryData(randomCategories, allQuestionsAndAnswers);
-          console.log(randomCategoryData);
 
           const startButton = checkStartButton();
           generateTable(randomCategoryData, startButton);
